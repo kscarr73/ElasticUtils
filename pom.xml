@@ -4,7 +4,7 @@
 
 	<groupId>com.progbits.api.elastic</groupId>
 	<artifactId>ElasticUtils</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>bundle</packaging>
 
 	<description>
@@ -46,6 +46,12 @@
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-client</artifactId>
 			<version>9.4.27.v20200227</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>osgi.cmpn</artifactId>
+			<version>6.0.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
